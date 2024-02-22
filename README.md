@@ -1,3 +1,11 @@
+# Added
+* How to run 
+```
+docker build -t mydeoldify .
+docker run -it --rm -p 8888:8888 --entrypoint bash -v $(pwd):/home/app/ mydeoldify
+jupyter lab --ip 0.0.0.0 --port 8888 --allow-root 
+```
+
 
 # DeOldify
 
